@@ -1,0 +1,16 @@
+{
+  "name": "rh-datastore-node-api",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "angga",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "sequelize": "^4.23.1",
+    "sqlite": "^2.8.0"
+  },
+  "scripts": {
+    "start": "node",
+    "dev": "nodemon --watch src index.js"
+  }
+}
